@@ -1,0 +1,6 @@
+framework module UIMadeEasy {
+  umbrella header "UIMadeEasy-umbrella.h"
+
+  export *
+  module * { export * }
+}

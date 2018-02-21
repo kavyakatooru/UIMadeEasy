@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B1D2D05DC576304E5B0E2E8 /* Pods_UIMadeEasy_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A70DC6A500AE2F562B5B67 /* Pods_UIMadeEasy_Tests.framework */; };
+		24BA2145203D8B3300B90A10 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 24BA2144203D8B3300B90A10 /* .swift-version */; };
 		250CF7513B93BB04D1E373B9 /* Pods_UIMadeEasy_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D7EC340E709EDD7602A11 /* Pods_UIMadeEasy_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		1F6AFF45D35FDBD8B3FD7905 /* Pods-UIMadeEasy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMadeEasy_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIMadeEasy_Tests/Pods-UIMadeEasy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BA2144203D8B3300B90A10 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		40A70DC6A500AE2F562B5B67 /* Pods_UIMadeEasy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIMadeEasy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* UIMadeEasy_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMadeEasy_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +42,13 @@
 		607FACE51AFB9204008FA782 /* UIMadeEasy_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMadeEasy_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		638950DDBD57D07C60876F93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		638950DDBD57D07C60876F93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		66792CD325882BDD979992EB /* Pods-UIMadeEasy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMadeEasy_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIMadeEasy_Example/Pods-UIMadeEasy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8518D79330CBA9572ACAFF07 /* Pods-UIMadeEasy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMadeEasy_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIMadeEasy_Example/Pods-UIMadeEasy_Example.release.xcconfig"; sourceTree = "<group>"; };
 		963D7EC340E709EDD7602A11 /* Pods_UIMadeEasy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIMadeEasy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD637CA02735F3C4F71C959B /* UIMadeEasy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIMadeEasy.podspec; path = ../UIMadeEasy.podspec; sourceTree = "<group>"; };
+		AD637CA02735F3C4F71C959B /* UIMadeEasy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIMadeEasy.podspec; path = ../UIMadeEasy.podspec; sourceTree = "<group>"; };
 		E7F9AAEEC317420D5986D6C8 /* Pods-UIMadeEasy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMadeEasy_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIMadeEasy_Tests/Pods-UIMadeEasy_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F953094945436EDC7E50D98C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F953094945436EDC7E50D98C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				AD637CA02735F3C4F71C959B /* UIMadeEasy.podspec */,
 				F953094945436EDC7E50D98C /* README.md */,
 				638950DDBD57D07C60876F93 /* LICENSE */,
+				24BA2144203D8B3300B90A10 /* .swift-version */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BA2145203D8B3300B90A10 /* .swift-version in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
