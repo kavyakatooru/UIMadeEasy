@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIMadeEasy_Example' do
+  pod 'UIMadeEasy', :path => '../'
+
+  target 'UIMadeEasy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
